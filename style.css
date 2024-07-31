@@ -1,6 +1,33 @@
-/* #presentacion {
-    height: 88vh;
+#presentacion {
+    min-height: 94vh;
     display: flex;
-    justify-content: start;
-    align-items: center;
-} */
+    justify-content: center;
+    align-items: flex-end;
+
+    background-image: url(assets/fondo-pantalla.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.proyecto {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-1 {
+    background-image: url('assets/arecibo-message.gif');
+}
+
+#proyecto-2 {
+    background-image: url('assets/proyecto-1.png');
+}
+
+#proyecto-3 {
+    background-image: url('assets/proyecto-1.png');
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, 1)
+}
