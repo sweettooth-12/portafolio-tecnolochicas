@@ -1,10 +1,47 @@
+.color-texto1 {
+    color: #CCD6F6;
+}
+
+.color-texto2 {
+    color: #8892B0;
+}
+
+.color-texto3 {
+    color: #27ae60;
+}
+
+.mono-font {
+    font-family: 'Courier New', monospace;
+}
+
+.navbar {
+    font-family: 'Courier New', monospace;    
+}
+
+.navbar-brand {
+    color: #27ae60;
+}
+
+.nav-link {
+    color: #27ae60;
+}
+
+body {
+    background-color: #050E1A;
+}
+
+.boton1 {
+    color:#27ae60;
+    border-color: #27ae60;
+}
+
 #presentacion {
     min-height: 94vh;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
 
-    background-image: url(assets/fondo-pantalla.jpg);
+    background-image: url(assets/tech-bg.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,5 +66,5 @@
 }
 
 .text-shadow-1 {
-    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, 1)
+    text-shadow: 0 .125rem .5rem rgba(0, 0, 0, 1)
 }

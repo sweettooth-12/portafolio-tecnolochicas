@@ -14,9 +14,9 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-secondary-subtle" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-black fixed-top" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Radha</a>
+                <a class="navbar-brand" href="#presentacion">Radha</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,16 +24,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
+                            <a class="nav-link" aria-current="page" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonios</a>
+                            <a class="nav-link" href="#testimonios">Recomendaciones</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -42,26 +42,32 @@
     </header>
 
     <main>
-        
+
         <section id="presentacion" class="container-fluid">
-            <div class="px-4 py-5 my-5 text-center">
+            <div class="px-5 mx-5 py-5 my-5 text-end">
                 <div class="col-lg-6 mx-auto">
-                    <h1 class="display-5 fw-bold text-white text-shadow-1">Radha</h1>
-                    <p class="lead mb-4 text-white text-shadow-1"><b>Quickly design and customize responsive
-                            mobile-first sites with Bootstrap, the
-                            world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
-                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</b>
+                    <h1 id="nombre" class="display-5 fw-bold text-white text-shadow-1">¡Hola! Soy Radha</h1>
+                    <p class="lead mb-4 text-shadow-1 fs-4 color-texto1">Historiadora por la UNAM, estudiando Ciencia
+                            de
+                            Datos
+                            en la FES Acatlán y en BEDU. Participante también del Summer Camp en Frontend de
+                            Tecnolchicas PRO.
+                            Experiencia en asociaciones civiles para las migraciones, políticas públicas, derechos
+                            humanos e investigación.
+                            Trabajo de campo en albergues y campamentos temporales, tanto con infancias como con
+                            adultos.
+                        
                     </p>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Contáctame</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Correo</button>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-end">
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton1 mono-font">Contáctame</button>                        
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton1 mono-font">Correo</button>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="habilidades" class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Habilidades</h2>
+            <h2 class="pb-2 border-bottom color-texto1"><span class="color-texto3 mono-font">01. </span>Habilidades</h2>
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
                 <div class="col d-flex align-items-start">
                     <div
@@ -69,12 +75,10 @@
                         <i class="bi bi-file-bar-graph"></i>
                     </div>
                     <div>
-                        <h3 class="fs-2 text-body-emphasis">Estadística</h3>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                        <h3 class="fs-2 color-texto3">Estadística</h3>
+                        <p class="color-texto2">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
                             sentence and probably just keep going until we run out of words.</p>
-                        <a href="#" class="btn btn-primary">
-                            Soy un botón
-                        </a>
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton1 mono-font">Soy un botón</button>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
@@ -83,12 +87,10 @@
                         <i class="bi bi-code-square"></i>
                     </div>
                     <div>
-                        <h3 class="fs-2 text-body-emphasis">Programación</h3>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                        <h3 class="fs-2 color-texto3">Programación</h3>
+                        <p class="color-texto2">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
                             sentence and probably just keep going until we run out of words.</p>
-                        <a href="#" class="btn btn-primary">
-                            Soy un botón
-                        </a>
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton1 mono-font">Soy un botón</button>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
@@ -97,19 +99,17 @@
                         <i class="bi bi-file-text-fill"></i>
                     </div>
                     <div>
-                        <h3 class="fs-2 text-body-emphasis">Investigación</h3>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                        <h3 class="fs-2 color-texto3">Investigación</h3>
+                        <p class="color-texto2">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
                             sentence and probably just keep going until we run out of words.</p>
-                        <a href="#" class="btn btn-primary">
-                            Soy un botón
-                        </a>
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton1 mono-font">Soy un botón</button>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="proyectos" class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Proyectos</h2>
+            <h2 class="pb-2 border-bottom color-texto1"><span class="color-texto3 mono-font">02. </span>Proyectos</h2>
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <div class="col">
                     <div id="proyecto-1"
@@ -162,8 +162,8 @@
             </div>
         </section>
 
-        <section id="testimonios">
-            <h2 class="container text-center">Testimonios</h2>
+        <section id="recomendaciones" class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom color-texto1"><span class="color-texto3 mono-font">03. </span>Recomendaciones</h2>
             <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
                 <!-- Indicadores con puntos para navegar -->
                 <div class="carousel-indicators">
@@ -178,9 +178,9 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <article class="container text-center px-5 py-5">
-                            <img class="rounded-3" src="assets/tc-logo.jpg" height="300" alt="">
-                            <h3 class="my-3">Litzi Sánchez</h3>
-                            <p class="px-5">Radha ha demostrado ser una alumna responsable y muy creativa durante el
+                            <img class="rounded-3" src="assets/tc-logo.jpg" height="300" alt="Logo Tecnolochicas">
+                            <h3 class="my-3 color-texto3">Litzi Sánchez</h3>
+                            <p class="px-5 color-texto2">Radha ha demostrado ser una alumna responsable y muy creativa durante el
                                 curso. Su interés por aprender la motiva a mejorar con cada proyecto que realiza.
                                 Litzi Sánchez.
                                 Mentora Técnica en Tecnolochicas.</p>
@@ -224,22 +224,33 @@
 
     </main>
 
-    <footer class="container">
-        <div class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-            </ul>
-            <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    <footer id="contacto" class="container-fluid bg-black" data-bs-theme="dark">
+        <div class="py-3">
+            <h4 class="text-center text-white">Una frase aquiiiii</h4>
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item">
+                    <a href="https://icons.getbootstrap.com/icons/github/" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-github fs-1"></i>
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/radharani-regalado/" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-linkedin fs-1"></i>
+                    </a>
+                    </li>
+                </ul>
+            <p class="text-center text-body-secondary mono-font">© 2024 Radha, Tecnolochicas PRO</p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
