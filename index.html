@@ -13,6 +13,10 @@
 
 <body>
 
+<audio id="miaudio" autoplay>
+    <source src="assets/musica/rey.mp3" type="audio/mpeg">
+</audio>
+
     <header>
         <nav class="navbar navbar-expand-lg bg-black fixed-top" data-bs-theme="dark">
             <div class="container">
@@ -34,6 +38,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="pauseButton">Play</button>
                         </li>
                     </ul>
                 </div>
@@ -60,7 +67,7 @@
                     </p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-end">
                         <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton1 mono-font">Contáctame</button>                        
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton1 mono-font">Correo</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton1 mono-font" onclick="copiarAlPortapapeles('rakuumaa@gmail.com')">Correo</button>
                     </div>
                 </div>
             </div>
